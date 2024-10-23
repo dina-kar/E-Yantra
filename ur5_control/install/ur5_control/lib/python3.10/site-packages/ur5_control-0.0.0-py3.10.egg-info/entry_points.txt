@@ -1,3 +1,4 @@
 [console_scripts]
+scriptb = ur5_control.ScriptB:main
 task1b = ur5_control.task1b_boiler_plate:main
 

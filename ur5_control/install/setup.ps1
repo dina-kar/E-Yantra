@@ -23,8 +23,12 @@ function _colcon_prefix_chain_powershell_source_script {
 
 # source chained prefixes
 _colcon_prefix_chain_powershell_source_script "/opt/ros/humble\local_setup.ps1"
+_colcon_prefix_chain_powershell_source_script "/workspaces/E-Yantra/ebot_nav2/install\local_setup.ps1"
+_colcon_prefix_chain_powershell_source_script "/workspaces/E-Yantra/ur_moveit_config/install\local_setup.ps1"
 _colcon_prefix_chain_powershell_source_script "/workspaces/E-Yantra/ebot_description/install\local_setup.ps1"
 _colcon_prefix_chain_powershell_source_script "/workspaces/E-Yantra/eyantra_warehouse/install\local_setup.ps1"
+_colcon_prefix_chain_powershell_source_script "/workspaces/E-Yantra/ur_description/install\local_setup.ps1"
+_colcon_prefix_chain_powershell_source_script "/workspaces/E-Yantra/ur_simulation_gazebo/install\local_setup.ps1"
 
 # source this prefix
 $env:COLCON_CURRENT_PREFIX=(Split-Path $PSCommandPath -Parent)

@@ -35,11 +35,27 @@ COLCON_CURRENT_PREFIX="/opt/ros/humble"
 _colcon_prefix_chain_sh_source_script "$COLCON_CURRENT_PREFIX/local_setup.sh"
 
 # setting COLCON_CURRENT_PREFIX avoids relying on the build time prefix of the sourced script
+COLCON_CURRENT_PREFIX="/workspaces/E-Yantra/ebot_nav2/install"
+_colcon_prefix_chain_sh_source_script "$COLCON_CURRENT_PREFIX/local_setup.sh"
+
+# setting COLCON_CURRENT_PREFIX avoids relying on the build time prefix of the sourced script
+COLCON_CURRENT_PREFIX="/workspaces/E-Yantra/ur_moveit_config/install"
+_colcon_prefix_chain_sh_source_script "$COLCON_CURRENT_PREFIX/local_setup.sh"
+
+# setting COLCON_CURRENT_PREFIX avoids relying on the build time prefix of the sourced script
 COLCON_CURRENT_PREFIX="/workspaces/E-Yantra/ebot_description/install"
 _colcon_prefix_chain_sh_source_script "$COLCON_CURRENT_PREFIX/local_setup.sh"
 
 # setting COLCON_CURRENT_PREFIX avoids relying on the build time prefix of the sourced script
 COLCON_CURRENT_PREFIX="/workspaces/E-Yantra/eyantra_warehouse/install"
+_colcon_prefix_chain_sh_source_script "$COLCON_CURRENT_PREFIX/local_setup.sh"
+
+# setting COLCON_CURRENT_PREFIX avoids relying on the build time prefix of the sourced script
+COLCON_CURRENT_PREFIX="/workspaces/E-Yantra/ur_description/install"
+_colcon_prefix_chain_sh_source_script "$COLCON_CURRENT_PREFIX/local_setup.sh"
+
+# setting COLCON_CURRENT_PREFIX avoids relying on the build time prefix of the sourced script
+COLCON_CURRENT_PREFIX="/workspaces/E-Yantra/ur_simulation_gazebo/install"
 _colcon_prefix_chain_sh_source_script "$COLCON_CURRENT_PREFIX/local_setup.sh"
 
 
